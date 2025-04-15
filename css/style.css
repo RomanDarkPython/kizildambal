@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Postermin.jpg); 
+    background-size: contain;         
+    background-position: center;    
+    background-repeat: no-repeat;   
+    height: 100vh;                 
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+  }
+  
+ /* Центрированный блок с рамкой */
+ .center-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* по горизонтали */
+  align-items: center;     /* по вертикали */
+}
+
+/* Рамка */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 300px;
+}
+
+/* Заголовок */
+.overlay h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+/* Кнопки */
+.lang-btn {
+  background-color: rgba(255, 255, 255, 0.85);
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
+  margin: 10px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lang-btn:hover {
+  background-color: white;
+}
