@@ -9,6 +9,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: rgb(0, 0, 0);
   }
+
+  button {
+    color:black;
+  }
   
  /* Центрированный блок с рамкой */
  .center-wrapper {
@@ -35,6 +39,7 @@ body {
 .overlay h1 {
   margin-bottom: 30px;
   font-size: 24px;
+  color: #fff;
 }
 
 /* Кнопки */
