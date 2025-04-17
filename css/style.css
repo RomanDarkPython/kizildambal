@@ -26,12 +26,12 @@ body {
 
 /* Рамка */
 .overlay {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(116, 10, 10, 0.6);
   padding: 40px;
   border-radius: 20px;
   text-align: center;
   color: white;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(116, 10, 10, 0.5);
   width: 300px;
 }
 
